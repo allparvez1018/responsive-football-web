@@ -1,0 +1,116 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap');
+
+/* ----------------
+    Common Styles
+---------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.header{
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: center;
+}
+.head-container{
+    width: 1140px;
+}
+.content{
+    width: 1050px;
+}
+/* -------------------
+    Top Banner Styles
+-------------------- */
+.top-bar{   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 102px;
+    padding-top: 67px;
+    padding-bottom: 86px;
+}
+.top-heading{
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+.top-anchor{
+    font-size: 16px;
+    background-color: #E02C6D;
+    border: 2px solid #d52062;
+    border-radius: 3px;
+    padding: 10px 24px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+.fa-arrow-right.arrow{
+    margin-left: 8px;
+}
+.top-banner img{
+    width: 556px;
+    height: 438px;
+}
+/* -------------------
+    Players templante styles
+------------------- */
+#player-blog{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 27px;
+    margin-top: 70px;
+    margin-bottom: 165px;
+}
+.player{
+    width: 295px;
+    padding: 15px 15px 33px 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.159) ;
+}
+.player img{
+    width: 100%;
+}
+.player-name{
+    color: #18191F;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.player-info{
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+}
+/* -------------------
+    Footer Styles
+------------------- */
+.footer-content{  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-logo img{
+    width: 480px;
+    height: 110px;
+}
+.social-icon{
+    color: #969BAB;
+    font-size: 23px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #7c7d822a;
+}
+.footer-icons{
+    margin-top: 25px;
+}
+.copyright{
+    color: #000000;
+    font-size: 25px;
+}
