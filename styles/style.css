@@ -44,7 +44,7 @@ body{
     text-decoration: none;
     align-items: center;
 }
-
+ 
 
 .fa-arrow-right.arrow{
     margin-left: 8px;
@@ -123,7 +123,49 @@ body{
  
 /* Last template styleshit */
 
+.main-blog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: wheat;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+}
+.main-blog h1{
+    font-size: 40px;
+    margin-bottom: -5px;
+}
+.last-conten{
+    margin-left: 50px;
+    
+}
+.form{
+margin-left: 350px;
+}
 
+.form input{
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 3px;
+    
+}
+#input{
+    display: block;
+}
+#submit{
+    background-color: rgba(39, 49, 37, 0.726);
+    color: rgb(231, 227, 223);
+    width: 80px;
+    border-radius: 3px;
+
+}
+.renking{
+    margin-left: 200px;}
+
+.renking li{
+    font-size: 20px;
+}
  
 /* ----------------
     Media Query
@@ -173,6 +215,20 @@ body{
     .footer-logo img{
         width: 70%;
     }
+
+    .main-blog{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: wheat;
+        padding-bottom: 50px;
+        margin-bottom: 70px;
+    }
+    .form{
+        margin-left: 50px;
+        }
+        .renking{
+            margin-left: 50px;
+        padding-top: 50px;}
 }
 /* ------------------
     Tablet Device
@@ -207,4 +263,17 @@ body{
         width: 100%;
         margin-bottom: 50px;
     }
+    .main-blog{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: wheat;
+        padding-bottom: 50px;
+        margin-bottom: 70px;
+    }
+    .form{
+        margin-left: 50px;
+        }
+        .renking{
+            margin-left: 50px;
+        padding-top: 13px;}
 }
